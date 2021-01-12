@@ -23,7 +23,14 @@
   }
   
   .header {
-    background-color: #B2D6FF;
+    height: auto;
+    justify-content: inherit;
+    align-items: inherit;
+  }
+
+  .photo img {
+    width: 100%;
+    display: block;
   }
   
   .content {
@@ -86,3 +93,9 @@
         order: 2;
       }
   }
+
+  .illustration img {
+    width: 100%;
+    display: block;
+  }
+
